@@ -1,0 +1,7 @@
+a = put-image(rectangle(350, 50, "solid", "white"), 175, 120, rectangle(350, 235, "solid", "crimson"))
+b = put-image(rectangle(60, 240, "solid", "white"), 130, 120, a)
+c = put-image(rectangle(350, 25, "solid", "navy"), 175, 120, b)
+d = put-image(rectangle(25, 240, "solid", "navy"), 130, 120, c)
+
+
+print(d)
